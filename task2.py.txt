@@ -1,0 +1,9 @@
+light=input("please enter traffic light in small letters")
+if light=='red':
+    print(" Car has to stop")
+elif light=='green':
+    print("car is allowed to go")
+elif light=='yellow':
+    print("car has to wait")
+else:
+    print("invalid entry")
